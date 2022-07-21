@@ -1,0 +1,509 @@
+* {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-banner {
+    background-color: #161616;
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    margin: 4% 6% 6% 7%;
+}
+
+.top-banner-content {
+    width: 60%;
+    padding: 5% 0 5% 5%;
+}
+
+.top-banner-content h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.top-banner-content p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.top-banner button {
+    width: 196px;
+    height: 44px;
+    padding: 10px 24px;
+    background-color: #DD0000;
+    border-radius: 41px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    font-weight: 700;
+    overflow: hidden;
+    box-shadow: 0 6px #b92c60;
+}
+
+.top-banner button:hover {
+    background-color: rgb(189, 55, 31);
+}
+
+.top-banner button:active {
+    background-color: #E02C6D;
+    box-shadow: 0 5px tomato;
+    transform: translateY(4px);
+}
+
+.top-banner-image img {
+    height: 90%;
+    width: 100%;
+    padding-top: 20%;
+}
+
+/* -----------------------top banner styles ends----------------------------- */
+
+
+/* --------------------------second section start---------------------------- */
+
+.transfer-live {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-family: 'Poppins', sans-serif;
+    width: 215px;
+    justify-items: center;
+    height: 238px;
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 38px;
+    margin-left: 0.5%;
+}
+
+aside div button {
+    width: 204px;
+    height: 64px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+aside div button:hover {
+    cursor: pointer;
+}
+
+.aside-blog button {
+    font-family: 'Poppins', sans-serif;
+    background-color:
+        #DD0000;
+    color: #FFFFFF;
+    outline: none;
+
+}
+
+.upcoming-match button a {
+    font-size: 19px;
+    height: 5vw;
+    display: inline-block;
+    padding-top: 17px;
+}
+
+.aside-blog button a {
+    height: 5vw;
+    display: inline-block;
+    padding-top: 1.3vw;
+}
+
+.transfer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3%;
+    row-gap: 2%;
+    margin-left: 2%;
+    margin-right: 3vw;
+
+}
+
+.player-trasnsfer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid whitesmoke;
+    border-radius: 3%;
+    padding: 2%;
+    width: 22vw;
+    background-color: aliceblue;
+}
+
+.player-trasnsfer img {
+    width: 22vw;
+}
+
+.player-trasnsfer button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw;
+    width: 9vw;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 2% 0 2% 0;
+    background-color: aliceblue;
+}
+
+.player-trasnsfer button:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.player-trasnsfer p {
+    font-weight: 600;
+    font-size: 1.3vw;
+}
+
+.icon-text {
+    font-weight: 400;
+    font-size: 1.3vw;
+    color: #161616;
+}
+
+/* ------------------------second section end----------------------------- */
+
+
+/* ---------------footer style start----------------------------- */
+
+footer {
+    margin-top: 10%;
+    background-color: #161616;
+    color: #FFFFFF;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h1 {
+    font-size: 2.5vw;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.footer-nav {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.footer-nav p {
+    font-size: 1.2vw;
+}
+
+.social-icons {
+    display: flex;
+    width: 12vw;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5vw;
+}
+
+/* -------------styles for upcoming-match file start--------------- */
+.flags {
+    display: flex;
+    justify-content: space-around;
+    width: 16vw;
+    margin-left: 3vw;
+}
+
+.flags img {
+    width: 7vw;
+}
+
+.match-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.match-schedule {
+    align-self: center;
+}
+
+.view-all {
+    visibility: hidden;
+}
+
+/* -------------styles for upcoming-match file end--------------- */
+
+
+/* -------------media query start --------------- */
+/* ----------------mobile view------------ */
+@media only screen and (max-width:480px) {
+    .top-banner {
+        display: grid;
+        grid-template-columns: repeat(1, fr);
+        align-items: center;
+        justify-content: center;
+        padding: 4vw 1vw 2vw 5vw;
+    }
+
+    .top-banner-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top-banner-content h1 {
+        margin-top: 0vw;
+        margin-left: 4vw;
+        padding-left: 1vw;
+        font-size: 6vw;
+    }
+
+    .top-banner-content p {
+        font-size: 3vw;
+        margin-left: 4vw;
+
+    }
+
+    .top-banner-content button {
+        margin-top: 2vw;
+        margin-bottom: 0vw;
+        margin-left: 4vw;
+        width: 40vw;
+        height: 8vw;
+        font-size: 2.5vw;
+    }
+
+    .top-banner-img {
+        margin-top: 0vw;
+    }
+
+    .transfer-live {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    aside {
+        background-color: #FFFFFF;
+        padding-left: 20%;
+    }
+
+    aside div button {
+        width: 25vw;
+        height: 8vw;
+        margin-left: 15vw;
+        font-size: 2.6vw;
+        border: none;
+    }
+
+    aside div button a {
+        font-size: 2.6vw;
+    }
+
+
+    /* for upcoming match file */
+    .upcoming-match button {
+        height: 10vw;
+        width: 25vw;
+    }
+
+    .upcoming-match button a {
+        font-size: 2.5vw;
+        align-items: center;
+    }
+
+    /* for upcoming match file */
+
+
+    .transfer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 8%;
+        margin-bottom: 120%;
+    }
+
+    .player-trasnsfer {
+        width: 60vw;
+        margin-left: 4.5vw;
+        margin-right: 4.5vw;
+        height: 60vw;
+    }
+
+    .player-trasnsfer img {
+        width: 60vw;
+    }
+
+    .player-trasnsfer button {
+        width: 15vw;
+        font-size: 2vw;
+    }
+
+    .player-trasnsfer p {
+        font-size: 3vw;
+    }
+
+    .icon-text {
+        font-size: 2vw;
+    }
+
+
+    /* for upcoming match file */
+    .flags {
+        margin-left: 21vw;
+    }
+
+    .flags img {
+        width: 20vw;
+    }
+
+    /* for upcoming match file */
+
+
+    footer {
+        margin-top: 5%;
+    }
+
+    footer h1 {
+        margin-top: 0vw;
+        font-size: 5vw;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-nav p {
+        font-size: 4vw;
+    }
+
+    .social-icons a {
+        font-size: 3vw;
+    }
+}
+
+/* ----------------tab view------------ */
+@media only screen and (min-width: 481px) and (max-width:834px) {
+    .top-banner-image img {
+        height: 80%;
+    }
+
+    .transfer-live {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    aside {
+        display: flex;
+        background-color: #FFFFFF;
+        margin-left: 5%;
+    }
+
+    aside div button {
+        width: 25vw;
+        height: 8vw;
+        margin-left: 3vw;
+        font-size: 2.4vw;
+        border: none;
+    }
+
+    aside div button a {
+        font-size: 2.6vw;
+    }
+
+
+    /* for upcoming match file */
+    .upcoming-match button a {
+        font-size: 2.5vw;
+        align-items: center;
+    }
+
+    /* for upcoming match file */
+
+
+    .aside-blog {
+        margin-top: -2.5vw;
+    }
+
+    .transfer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 9%;
+        margin-bottom: 10vw;
+    }
+
+    .player-trasnsfer {
+        width: 35vw;
+    }
+
+    .player-trasnsfer img {
+        width: 35vw;
+    }
+
+    .player-trasnsfer button {
+        width: 10vw;
+    }
+
+    .player-trasnsfer p {
+        font-size: 1.3vw;
+    }
+
+    .icon-text {
+        font-size: 1.6vw;
+    }
+
+    .live-card {
+        display: none;
+    }
+
+
+
+    /* for upcoming match file */
+    .flags {
+        margin-left: 10vw;
+    }
+
+    .flags img {
+        width: 8vw;
+    }
+
+    /* for upcoming match file */
+
+
+    .view-all button {
+        visibility: visible;
+        margin-left: 43vw;
+        width: 16vw;
+        height: 6vw;
+        color: #FFFFFF;
+        background-color: tomato;
+        border: none;
+        font-size: 2.5vw;
+        font-weight: 400;
+        border-radius: 5px;
+    }
+
+}
